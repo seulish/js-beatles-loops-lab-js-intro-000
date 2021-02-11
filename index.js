@@ -15,6 +15,8 @@ const facts = [
   "He hated the sound of his own voice"
 ];
 
+// my code works, but the answer was to create an empty array first,
+// then .push'ing to that array with (`${facts[i]}!!!`)
 function johnLennonFacts(facts) {
   var n = 0;
   while (n < facts.length) {
